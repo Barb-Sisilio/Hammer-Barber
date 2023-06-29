@@ -1,0 +1,139 @@
+:root {
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #272626f1;
+    --cor-terciaria: #000000;
+}
+
+
+body {
+    background: linear-gradient(rgba(138, 86, 18, 0.932), rgb(80, 42, 7));
+}
+
+h1 {
+    text-align: center;
+    color: var(--cor-principal);
+    padding-top: 15px;
+    font-size: 48px;
+}
+
+.link {
+    text-align: center; 
+    width: 155%;
+    margin: auto;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 18px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--cor-principal);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--cor-secundaria);
+    text-decoration: underline;
+
+}
+
+#banner {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: var(--cor-principal);
+    font-size: 32px;
+}
+
+.caixa {
+    padding: 20px;
+}
+
+#principal {
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: var(--cor-principal);
+    font-size: 18px;
+}
+
+em strong {
+    color: #272626f1;
+}
+
+#banner2 {
+    width: 100%;
+}
+
+.itens {
+    font-style: italic;
+    color: var(--cor-principal);
+    font-size: 24px;
+}
+
+.serviços {
+    padding: 0 100px 80px 230px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 37%;
+}
+
+.logo {
+    width: 26%;
+}
+
+.text-mapa {
+    font-size: 20px;
+    color: var(--cor-principal);
+    text-align: center;
+}
+
+.localizacao {
+    display: inline-block;
+    padding: 2% 3% 5% 6%;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+
+.logo-redes {
+    width: 4%;
+    padding: 3.5% 3% 1% 3%; 
+}
+
+.logo-redes__links {
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0 2% 0 3%;
+}
+
+.logo-redes__links:hover {
+    color: var(--cor-terciaria);
+    text-decoration: underline;
+}
+
+.copyright {
+    padding: 4% 0 0 0;
+}
+
+.rodape {
+    width: 35%;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agendamento - Hammer</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="./img/logo branco2.png" class="logopreto" alt="logo da Hammer Barber"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="serviços.html">Serviços</a></li>
+                        <li><a href="agendamento.html">Agendamento</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nome" class="label-padrao">Nome e sobrenome</label>
+                <input type="text" id="nome" class="input-padrao" required placeholder="seu nome e sobrenome">
+
+                <label for="email" class="label-padrao">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone" class="label-padrao">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                
+                <label for="mensagem" class="label-padrao">Mensagem</label>
+                <textarea cols="60" rows="15" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend class="label-padrao">Qual(is) serviço(s) deseja agendar?</legend>
+                    <label for="radio-cabelo"><input type="radio" value="cabelo" id="radio-cabelo">Cabelo / Corte infantil</label>
+                    <label for="radio-barba"><input type="radio" value="barba" id="radio-barba">Barboterapia</label>
+                    <label for="radio-cabelobarba"><input type="radio" value="cabelobarba" id="radio-cabelobarba">Cabelo + Barba</label>
+                    <label for="radio-piercing"><input type="radio" value="piercing" id="radio-piercing">Piercing</label>
+                    <label for="radio-pigmentaçao"><input type="radio" value="pigmentaçao" id="radio-pigmentaçao">Pigmentação de Barba</label>
+                    <label for="radio-sobrancelha"><input type="radio" value="sobrancelha" id="radio-sobrancelha">Design de Sobrancelhas</label>
+                    <label for="radio-skin"><input type="radio" value="skinhidrataçao" id="radio-skin">Skin Care / Hidratação</label>
+                    <label for="radio-unha"><input type="radio" value="unha" id="radio-unha">Alongamento de Unha / Manicure - Pedicure / Pé + mão</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="label-padrao">Qual horário e local prefere ser atendido(a)?</legend>
+                    <select class="semana">
+                        <option>Segunda-feira</option>
+                        <option>Terça-feira</option>
+                        <option>Quarta-feira</option>
+                        <option>Quinta-feira</option>
+                        <option>Sexta-feira</option>
+                        <option>Sábado</option>
+                    </select>
+
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</optiom>
+                    </select>
+
+                    <select>
+                        <option>Unidade Av. Cursino</option>
+                        <option>Unidade Saúde</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Enviar" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Turno</th>
+                        <th>Horários</th>
+                    </tr>   
+                </thead>
+                <tbody>    
+                    <tr>
+                        <td>Manhã</td>
+                        <td>10:00 - 11:45</td>
+                    </tr>
+                    <tr>
+                        <td>Tarde</td>
+                        <td>12:00 - 16:45</td>
+                    </tr>
+                    <tr>
+                        <td>Noite</td>
+                        <td>17:00 - 19:15</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+
+        <footer>
+            <img class="rodape"  src="./img/logo branco2.png" alt="logo da Hammer Barber" alt="logo da Barbearia Hammer">
+            <div>
+                <img class="logo-redes" src="./img/github.png" >
+                <img class="logo-redes" src="./img/instagram2.png">
+                <img class="logo-redes" src="./img/linkedin.jpg">
+        </div>
+
+        <div>
+            <a class="logo-redes__links" href="https://github.com/Barb-Sisilio">GitHub</a>
+            <a class="logo-redes__links" href="https://instagram.com/hammer.bc?igshid=MzRlODBiNWFlZA==">Instagram</a>
+            <a class="logo-redes__links" href="https://linkedin.com/in/BarbaraSisilio">Linkedin</a>
+        </div>
+            <p class="copyright">&copy; Copyright - Hammer Barber</p>
+        </footer>
+    </body>
+</html>
